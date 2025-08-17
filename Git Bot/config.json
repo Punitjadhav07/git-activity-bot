@@ -1,0 +1,36 @@
+{
+  "schedule": {
+    "daily_time": "14:30",
+    "weekday_time": "10:00",
+    "timezone": "local"
+  },
+  "commit_settings": {
+    "max_commits_per_day": 1,
+    "min_commits_per_week": 3,
+    "preferred_commit_types": ["feat", "fix", "docs", "refactor", "test", "chore"],
+    "avoid_weekends": false
+  },
+  "repository": {
+    "auto_push": true,
+    "branch": "main",
+    "remote": "origin"
+  },
+  "content": {
+    "project_name": "QClinic",
+    "project_description": "A modern healthcare management system",
+    "tech_stack": ["Next.js", "TypeScript", "Tailwind CSS", "Prisma", "PostgreSQL"],
+    "features": [
+      "Patient management",
+      "Appointment scheduling", 
+      "Medical records",
+      "Billing and invoicing",
+      "Staff management",
+      "Reporting and analytics"
+    ]
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "git_bot.log",
+    "max_size_mb": 10
+  }
+} 
